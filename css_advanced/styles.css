@@ -1,0 +1,408 @@
+/* styles.css */
+
+/* Reset des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0; 
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url('./images/CSS Advanced/Object.png');
+    background-size:  cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    min-height: 100vh;
+}
+section, div {
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+}
+header {
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Styles du main */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    text-align: center; 
+    width: 100%;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 10px;
+    color:white;
+    text-align: center; 
+    width: 100%;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color:black;
+}
+.learn-from{
+    color:white;
+}
+
+.mentor-phillip{
+color:white;
+}
+.video-title-diagonal{
+    color:black;
+}
+
+h4 {
+    font-size: 1.2em;
+    color:black;
+}
+h3 {
+    color:black;
+}
+p {
+    color:#3b3c3d;
+}
+
+/* Styles pour les boutons */
+button {
+    background-color: rgb(228, 129, 206);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    margin-top: 10px;
+    display: block; /* Le bouton occupe une ligne complète */
+    margin: 20px auto 0; /* Centre le bouton et ajoute un espace par rapport aux spans */
+    padding: 10px 20px; /* Ajuste le rembourrage du bouton */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(228, 129, 206);
+}
+
+/* Styles des sections */
+div {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Styles pour les images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Styles du footer */
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; /* Répartit la place entre le logo et les icônes */
+    align-items: center;
+}
+
+.footer-left .logo {
+    max-width: 100px; /* Ajuster la taille du logo */
+}
+
+.footer-right {
+    display: flex;
+    justify-content: flex-end; /* Positionner les icônes à droite */
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px; /* Espacement entre les icônes */
+}
+
+.icon-circle {
+    width: 35px;
+    height: 35px;
+    background-color: #fff; /* Cercle blanc */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: -150px;
+}
+
+.icon-circle img {
+    width: 25px; /* Taille des icônes */
+    height: 25px;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+}
+
+.video-item {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    width: 200px; /* Ajustez selon vos besoins */
+    position: relative; /* Nécessaire pour positionner l'icône de lecture */
+    box-sizing: border-box;
+}
+
+.video-thumbnail {
+    width: 100%; /* S'assurer que l'image de la vidéo prend toute la largeur */
+    height: auto; /* Conserver le ratio d'aspect */
+}
+
+
+.play-button {
+    position: absolute; /* Positionnement absolu par rapport à .video-item */
+    top: 50%; /* Positionner au milieu verticalement */
+    left: 50%; /* Positionner au milieu horizontalement */
+    transform: translate(-50%, -50%); /* Centrer complètement l'icône */
+}
+
+.play-button img {
+    width: 50px; /* Ajustez la taille de l'icône de lecture selon vos besoins */
+    height: auto; /* Conserver le ratio d'aspect */
+}
+
+
+
+.play-button {
+    position: absolute; /* Positionne le logo de lecture par rapport à la div parente */
+    top: 15%; /* Centre verticalement */
+    left: 25%; /* Centre horizontalement */
+    transform: translate(-50%, -50%); /* Ajuste la position pour un vrai centrage */
+    font-size: 2rem; /* Ajuste la taille du logo, vous pouvez modifier cette valeur */
+    color: rgb(228, 129, 206); /* Change la couleur du logo, ajustez selon vos préférences */
+    pointer-events: none; /* Empêche les événements de clic sur le logo, pour éviter d'interférer avec les clics sur l'image */
+}
+.user {
+    display: flex; /* Pour aligner les éléments horizontalement */
+    align-items: center; /* Pour centrer verticalement les éléments */
+}
+
+.user img {
+    width: 40px; /* Ajustez la taille selon vos besoins */
+    height: auto; /* Pour garder les proportions de l'image */
+    margin-right: 10px; /* Espace entre l'image et le nom */
+}
+video-container p {
+    color: black; /* Couleur pour tous les paragraphes */
+}
+
+/* Cible spécifiquement les paragraphes avec "8 min" */
+.video-container .user-info p {
+    color: inherit; /* Rétablit la couleur héritée pour le texte "8 min" */
+}
+.video-container .user-info p {
+    color:  rgb(228, 129, 206); /* Changez 'red' par la couleur de votre choix */
+}
+.video-container .user-info .rating {
+    margin-right: 20px; /* Espace entre l'image de rating et le texte */
+}
+.video-container .user-info {
+    display:inline;
+    align-items: center; /* Aligne verticalement les éléments au centre */
+}
+.rating{
+    margin-left: -40px;
+}
+
+span {
+    display: inline-block; /* Met les spans en ligne, comme prévu */
+    margin-right: 35px;
+    font-size: 18px;
+    color:white;
+}
+/* Pour aligner les div côte à côte */
+.container {
+    display: flex; /* Active la disposition en flexbox */
+    justify-content: space-between; /* Espacement entre les éléments */
+    align-items: flex-start; /* Aligne les éléments en haut */
+    flex-wrap: wrap; /* Pour permettre aux éléments de revenir à la ligne s'il n'y a pas assez de place */
+    gap: 20px; /* Espace entre chaque div */
+}
+
+.container > div {
+    flex: 1; 
+    max-width: 200px; 
+    text-align: center; 
+}
+
+.container img {
+    max-width: 100%; 
+    height: auto;
+}
+.container div:nth-child(3) img {
+    border-radius: 50%; 
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+}
+/* Section styling */
+.testimonial-section {
+    background-color: #8e44ad;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 50px; 
+    margin-top: 108px;
+    margin-left: 0; 
+    margin-right: 0; 
+}
+
+/* Image styling */
+.testimonial-section .image-container img {
+    width: 150px;
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-right: 10px;
+}
+
+/* Text styling */
+.testimonial-section .text-container {
+    color: white; /* White text color */
+    margin-left:-200px;
+}
+
+.testimonial-section blockquote {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.testimonial-section h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.testimonial-section p {
+    margin: 0;
+    font-size: 1em;
+}
+.membership-section {
+    background-color: black;
+    padding: 20px; /* Garde l'espace interne */
+    text-align: center; /* Centre le contenu */
+    width: 100%; /* Prend toute la largeur */
+    position: relative; /* Permet de gérer le positionnement */
+    left: 50px; /* Commence à la gauche de la page */
+    right: 100px; /* S'assure qu'il s'étend jusqu'à la droite de la page */
+    margin: 0; /* Enlève les marges externes */
+}
+
+.membership-section h2 {
+    margin-bottom: 20px; /* Espace en dessous du titre */
+}
+
+.membership-container {
+    display: inline-flex; /* Aligne les divs côte à côte */
+    justify-content: center; /* Centre les éléments horizontalement */
+     /* Permet aux éléments de passer à la ligne si nécessaire */
+}
+
+.membership-item {
+    margin: 10px; /* Espace entre les éléments */
+    text-align: center; /* Centre le contenu de chaque item */
+}
+
+.register-button {
+    margin-top: 50px; /* Espace au-dessus du bouton */
+    padding: 10px 20px; /* Padding pour le bouton */
+}
+.faq-section {
+    text-align: center; /* Centre le texte du titre */
+    padding: 20px;
+}
+
+.faq-container {
+    display: flex;
+    flex-wrap: wrap; /* Permet de passer à la ligne pour les petits écrans */
+    justify-content: space-between; /* Espace les éléments uniformément */
+    gap: 50px; /* Espace entre les divs */
+}
+
+.faq-item {
+    flex: 1 1 45%; /* Chaque div occupe environ 45% de la largeur pour être côte à côte */
+    padding: 20px;
+    box-sizing: border-box; /* S'assure que padding ne déborde pas */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.faq-item h3 {
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .faq-item {
+        flex: 1 1 100%; /* Sur les petits écrans, chaque div prendra toute la largeur */
+    }
+}
+
+
