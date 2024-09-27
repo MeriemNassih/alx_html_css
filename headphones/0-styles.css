@@ -1,0 +1,215 @@
+/* Style du corps */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #181717;
+    text-align: center; 
+}
+
+.background-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    width: 150px;
+}
+
+.texte-head {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 15px;
+    color: #fff;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.texte-head div:hover p {
+    color: #FF6565;
+}
+
+h2 {
+    position:absolute;
+    left:30%;
+    top:57%;
+    color: #fff;
+    font-size: 28px;
+}
+
+h3 {
+    position:absolute;
+    top:65%;
+    left:38%;
+    color: #fff;
+    font-size: 15px;
+}
+
+button {
+    position:absolute;
+    top:75%;
+    left:46%;
+    padding: 10px 25px;
+    font-size: 12px;
+    background-color: #FF6565;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.paragraphe {
+    position:absolute;
+    top:95%;
+    left:25%;
+    color: #fff;
+    font-size: 14px;
+    text-align: justify;
+    width: 100%;
+    max-width: 620px; 
+    margin: 10px auto 0 auto;
+    line-height: 1.8;
+}
+
+.paragraphe1 {
+    position:absolute;
+    top:155%;
+    left:25%;
+    color: black;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.8;
+    max-width: 620px; 
+    width: 100%;
+    margin: 10px auto 0 auto;
+
+}
+.images{
+    position:absolute;
+    top:200%;
+    display: flex;
+    gap: 230px;
+    justify-content: center;
+    left:12%;
+}
+.short-paragraphe{
+    position:absolute;
+    top:220%;
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    left:5%;
+    margin-bottom: 20px; 
+}
+.background-image1{
+    position: absolute; 
+    width: 100%; 
+    height: auto; 
+    top: 250%; 
+    left:0%
+}
+.paragraphe2{
+    position:absolute;
+    top:295%;
+    color:#fff;
+    font-size: 14px;
+    justify-content: center;
+    line-height: 1.8;
+    max-width: 620px; 
+    width: 100%;
+    margin: 10px auto 0 auto;
+    left:25%;
+}
+.pentagone{
+    position:absolute;
+    top:320%;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    left:0%;
+    width: 100%; 
+}
+.titre{
+    position:absolute;
+    top:320%;
+    display:flex;
+    gap:190px;
+    justify-content: center;
+    left:0%;
+    width: 100%; 
+    color:#fff;
+    font-size:40px;
+}
+.paragraphe3{
+    position:absolute;
+    top:335%;
+    display:flex;
+    gap:150px;
+    justify-content: center;
+    left:0%;
+    width: 100%; 
+    color:#fff;
+}
+.container {
+    width: 100%; /* S'assure que le conteneur prend toute la largeur */
+    display: flex;
+    flex-direction: column; /* Aligne les éléments verticalement */
+    align-items: center; /* Centrer les lignes si nécessaire */
+    margin-top: 1600px; /* Décale tout le conteneur vers le bas */
+}
+
+.ligne {
+    width: 20%; /* Largeur de chaque ligne (ajustable) */
+    height: 1px; /* Épaisseur des lignes */
+    background-color: rgb(169, 163, 163); /* Couleur des lignes */
+    margin: 28px 0; /* Espace entre chaque ligne */
+}
+.button1 {
+    position:absolute;
+    top:450%;
+    left:44%;
+    padding: 10px 25px;
+    font-size: 12px;
+    background-color: #FF6565;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.rectangle {
+    position:absolute;
+    top:480%;
+    width: 100%; /* Prend toute la largeur de la page */
+    height: 200px; /* Ajuste la hauteur selon tes besoins */
+    background-color: #071629; /* Couleur noire */
+    margin: 20px 0; /* Espace au-dessus et en-dessous, facultatif */
+}
+.logo1{
+    position: absolute;
+    top:500%;
+    left: 200px;
+    width: 150px;
+}
+.icone{
+    position: absolute;
+    top:500%;
+    left: 1100px;
+    display:flex;
+    gap:20px;
+}
+.copie{
+    position:absolute;
+    top:512%;
+    left:600px;
+    color:#fff;
+    font-size: 12px;
+}
+   
