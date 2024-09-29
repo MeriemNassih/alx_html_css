@@ -81,7 +81,7 @@ button {
 }
 .what-we-do{
     position:absolute;
-    top:250%;
+    top:149%;
     color:#071629;
     font-size: 40px;
 }
@@ -123,6 +123,11 @@ button {
     height: auto; 
     top: 250%; 
     left:0%
+}
+.Our-results{
+    position:absolute;
+    top:290%;
+    color:#071629;
 }
 .paragraphe2{
     position:absolute;
@@ -318,6 +323,7 @@ button {
         margin: 10px auto 0 auto;
     
     }
+    
     .images{
         position: absolute;
         top: 190%;
@@ -351,6 +357,11 @@ button {
         top: 330%; 
         left:0%;
         transform: scale(1.5);
+    }
+    .Our-results{
+        position:absolute;
+        top:329%;
+        color:#071629;
     }
     .paragraphe2{
         position:absolute;
@@ -573,6 +584,11 @@ button {
         height: 350%; 
         top: 700%; 
         left:0%
+    }
+    .Our-results{
+        position:absolute;
+        top:674%;
+        color:#071629;
     }
     .paragraphe2{
         position:absolute;

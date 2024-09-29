@@ -81,7 +81,7 @@ button {
 }
 .what-we-do{
     position:absolute;
-    top:250%;
+    top:149%;
     color:#071629;
     font-size: 40px;
 }
@@ -124,6 +124,11 @@ button {
     top: 250%; 
     left:0%
 }
+.Our-results{
+    position:absolute;
+    top:290%;
+    color:#071629;
+}
 .paragraphe2{
     position:absolute;
     top:295%;
@@ -165,6 +170,12 @@ button {
     left:0%;
     width: 100%; 
     color:#fff;
+}
+.contactUs{
+    position:absolute;
+    top:400%;
+    color:#071629;
+    font-size:30px;
 }
 .container {
     width: 100%; 
@@ -318,6 +329,7 @@ button {
         margin: 10px auto 0 auto;
     
     }
+    
     .images{
         position: absolute;
         top: 190%;
@@ -351,6 +363,11 @@ button {
         top: 330%; 
         left:0%;
         transform: scale(1.5);
+    }
+    .Our-results{
+        position:absolute;
+        top:329%;
+        color:#071629;
     }
     .paragraphe2{
         position:absolute;
@@ -398,6 +415,12 @@ button {
         left:10%;
         width: 80%; 
         color:#fff;
+    }
+    .contactUs{
+        position:absolute;
+        top:490%;
+        color:#071629;
+        font-size:30px;
     }
     .container {
         width:100%;
@@ -574,6 +597,11 @@ button {
         top: 700%; 
         left:0%
     }
+    .Our-results{
+        position:absolute;
+        top:674%;
+        color:#071629;
+    }
     .paragraphe2{
         position:absolute;
         top:680%;
@@ -618,6 +646,12 @@ button {
         left:90%;
         width: 100%; 
         color:#fff;
+    }
+    .contactUs{
+        position:absolute;
+        top:1000%;
+        color:#071629;
+        font-size:20px;
     }
     .container {
         position:absolute;
